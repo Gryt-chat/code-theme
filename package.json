@@ -1,0 +1,39 @@
+{
+  "name": "gryt-theme",
+  "displayName": "Gryt Theme",
+  "description": "A VS Code color theme based on Gryt's client and site design tokens.",
+  "version": "0.0.2",
+  "icon": "icon.png",
+  "publisher": "GrytChat",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "gryt",
+    "purple"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gryt-chat/gryt"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gryt Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gryt-dark-color-theme.json"
+      },
+      {
+        "label": "Gryt Light",
+        "uiTheme": "vs",
+        "path": "./themes/gryt-light-color-theme.json"
+      }
+    ]
+  }
+}
